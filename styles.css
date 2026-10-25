@@ -26,8 +26,9 @@ header.site .btn{white-space:nowrap}
 .btn{display:inline-block;background:var(--acc);color:#fff;font-weight:700;padding:13px 22px;border-radius:8px;border:0;cursor:pointer;font-size:15px;transition:background .15s}
 .btn:hover{background:var(--accd)}.btn.ghost{background:transparent;border:2px solid #fff;color:#fff}.btn.dark{background:var(--char2)}
 @media(max-width:520px){header.site .wrap{gap:10px;height:64px}.logo img{height:34px}header.site .btn{padding:9px 12px;font-size:13px;margin-left:auto}.top .wrap span.tl{display:none}}
-.hero{position:relative;color:#fff;overflow:hidden;padding:62px 0 74px;
- background:radial-gradient(900px 420px at 85% 10%,rgba(18,166,220,.25),transparent 60%),linear-gradient(120deg,#0b0d0e 0%,#16191b 55%,#0f2a36 100%)}
+.hero{position:relative;color:#fff;overflow:hidden;padding:62px 0 74px;background-color:#0b0d0e;
+ background:radial-gradient(900px 420px at 85% 10%,rgba(18,166,220,.25),transparent 60%),linear-gradient(120deg,rgba(11,13,14,.95) 0%,rgba(18,21,23,.86) 50%,rgba(15,42,54,.78) 100%),url(img/vt5z0a2k.jpg) center 70%/cover no-repeat}
+.hero .pcap{position:absolute;right:14px;bottom:10px;z-index:1;font-size:11.5px;color:#9fb0ba}
 .hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 92% 88%,rgba(18,166,220,.18) 0 120px,transparent 121px)}
 .hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center;position:relative;z-index:1}
 @media(max-width:960px){.hero .grid{grid-template-columns:1fr}}
